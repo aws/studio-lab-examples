@@ -1,10 +1,9 @@
-## My Project
+## SageMaker Studio Lab Sample Notebooks
 
-TODO: Fill this README out!
+If you are looking for a no-cost compute environment to run Jupyter notebooks, then look no further than SageMaker Studio Lab! This repository contains exapmle notebooks that demonstrate both core concepts of machine learning and some advanced functionality of SageMaker Studio Lab. 
 
 Be sure to:
 
-* Change the title in this README
 * Edit your repository description on GitHub
 
 ## Security
