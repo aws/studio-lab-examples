@@ -11,7 +11,7 @@ Next, get your hands on this base syntax. Here I'll render it as a code snippet 
 You can park that directly in your file. I like putting it right at the top, under the first header.
 
 ### 3. Modify that base url.
-Your last step us just to make sure the link you're adding in your markdown or notebook file accurately reflects your actual GitHub directory structure.
+Your last step us just to make sure the link you're adding in your markdown or notebook file accurately reflects your actual GitHub directory structure. What's happening is that we are handling the hand off. You use this new url structure, which starts with  `https://studiolab.sagemaker.aws/import/github/`, and then close it off with your actual GitHub directory structure. 
 
 ### 4. Share!
 And that's about it! After that, anyone with this link will be able to make a copy of your notebook and clone it. They can either copy just that notebook, or clone the entire repository. 
