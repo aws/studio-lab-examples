@@ -1,4 +1,4 @@
-# Add an Open in Studio Lab Button to Your GitHub Notebooks
+# Add a Open in Studio Lab Button to Your GitHub Notebooks
 Do you want to add this flashy [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/open-in-studio/README.md) button to your notebooks hosted on GitHub? It's really easy. Let me break it down for you in 3 steps.
 
 ### 1. Find the url for your file hosted on GitHub.
