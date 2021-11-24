@@ -6,7 +6,7 @@ Just copy the url of the file you want to add the button to. This should work ni
 
 ### 2. Copy and paste the base syntax into your file
 Next, get your hands on this base syntx. Here I'll render it as a code snippet for you.
-```[![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/<your-org>/<your-repo-name</blob/<your-branch-name>/<path-to-your-notebook>/<your-notebook.ipynb>)```
+```[![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/<your-org>/<your-repo-name>/blob/<your-branch-name>/<path-to-your-notebook>/<your-notebook.ipynb>)```
 
 You can park that directly in your file. I like putting it right at the top, under the first header.
 
