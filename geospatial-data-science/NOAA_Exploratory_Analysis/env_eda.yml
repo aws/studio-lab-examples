@@ -1,0 +1,14 @@
+# To use:
+#   $ conda env create -f env_eda.yml
+#   $ conda activate eda
+name: eda
+dependencies:
+  - python=3.9
+  - conda
+  - conda:
+    - ipykernel
+    - numpy
+    - pandas
+    - matplotlib
+    - scipy
+    - seaborn
