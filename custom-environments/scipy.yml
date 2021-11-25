@@ -1,0 +1,34 @@
+name: scipy
+channels:
+- conda-forge
+dependencies:
+- python=3.9
+- altair
+- beautifulsoup4
+- bokeh
+- jupyter_bokeh
+- bottleneck
+- cloudpickle
+- conda-forge::blas=*=openblas
+- cython
+- dask
+- dill
+- h5py
+- ipympl
+- ipywidgets
+- matplotlib-base
+- numba
+- numexpr
+- pandas
+- patsy
+- protobuf
+- pytables
+- scikit-image
+- scikit-learn
+- scipy
+- numpy
+- seaborn
+- sqlalchemy
+- statsmodels
+- sympy
+- xlrd
