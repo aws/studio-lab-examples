@@ -1,4 +1,4 @@
-name: geospatial
+name: geo-data
 dependencies:
   - python=3.9
   - pip
