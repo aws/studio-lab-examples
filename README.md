@@ -1,7 +1,5 @@
 ## SageMaker Studio Lab Sample Notebooks
 
-[![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/main/README.md)
-
 ***Available today in public preview.***
 
 If you are looking for a no-cost compute environment to run Jupyter notebooks, then look no further than SageMaker Studio Lab! This repository contains exapmle notebooks that demonstrate both core concepts of machine learning and some advanced functionality of SageMaker Studio Lab. 
