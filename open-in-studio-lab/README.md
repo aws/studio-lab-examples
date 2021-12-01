@@ -24,3 +24,6 @@ No way. All they are doing is pointing to your notebook stored on GitHub. So if 
 
 ### How do I create an account on SageMaker Studio Lab?
 Easy, just go to https://studiolab.sagemaker.aws and request an account.
+
+### Copy the notebook, or clone the repository?
+Studio Lab provides 15GB of persistent storage. If you think you are going to burn through that with a really large model, or with exploring a larger dataset, you might not want to clone a full repository, but instead just copy a notebook. When you use the "open in Studio" button, you can select either "Copy notebook" or "Clone entire repository." Make sure to pick the one that gives you the files you need, while not taking all of your storage.
