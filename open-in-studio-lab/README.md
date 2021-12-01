@@ -1,5 +1,5 @@
 # Add a Open in Studio Lab Button to Your GitHub Notebooks
-Do you want to add that flashy "Open in Studio Lab" button to your notebooks hosted on GitHub? It's really easy. Let me break it down for you in 3 steps.
+Do you want to add that flashy [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/natural-language-processing/NLP_Disaster_Recovery_Translation.ipynb) button to your notebooks hosted on GitHub? It's really easy. Let me break it down for you in 3 steps.
 
 ### 1. Find the url for your file hosted on GitHub.
 Just copy the url of the file you want to add the button to. This should work nicely for both ipython notebooks (ending in `.ipynb`) and markdown (ending in `.md`). For this file you are reading right now, the url is simply 
