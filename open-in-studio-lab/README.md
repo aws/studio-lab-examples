@@ -2,7 +2,8 @@
 Do you want to add this flashy [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/open-in-studio/README.md) button to your notebooks hosted on GitHub? It's really easy. Let me break it down for you in 3 steps.
 
 ### 1. Find the url for your file hosted on GitHub.
-Just copy the url of the file you want to add the button to. This should work nicely for both ipython notebooks (ending in `.ipynb`) and markdown (ending in `.md`). For this file you are reading right now, the url is simply https://github.com/aws/studio-lab-examples/edit/main/open-in-studio-lab/README.md.
+Just copy the url of the file you want to add the button to. This should work nicely for both ipython notebooks (ending in `.ipynb`) and markdown (ending in `.md`). For this file you are reading right now, the url is simply 
+https://github.com/aws/studio-lab-examples/blob/main/open-in-studio-lab/README.md.
 
 ### 2. Copy and paste the base syntax into your file as Markdown.
 Next, get your hands on this base syntax. Here I'll render it as a code snippet for you.
