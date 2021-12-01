@@ -1,0 +1,13 @@
+# To use:
+#   $ conda env create -f env_cv.yml
+#   $ conda activate cv
+name: cv
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - ipywidgets
+    - torch
+    - torchvision
+    - torchsummary
+    - matplotlib
