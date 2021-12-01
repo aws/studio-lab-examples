@@ -1,0 +1,24 @@
+name: R
+channels:
+- conda-forge
+dependencies:
+- r-base
+- r-caret
+- r-crayon
+- r-devtools
+- r-e1071
+- r-forecast
+- r-hexbin
+- r-htmltools
+- r-htmlwidgets
+- r-irkernel
+- r-nycflights13
+- r-randomforest
+- r-rcurl
+- r-rodbc
+- r-rsqlite
+- r-shiny
+- unixodbc
+- r-rmarkdown
+- r-tidymodels
+- r-tidyverse
