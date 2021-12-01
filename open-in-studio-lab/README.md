@@ -19,7 +19,7 @@ This means that the "open in Studio Lab" functionality will inherit all of the s
 And that's about it! After that, anyone with this link will be able to make a copy of your notebook and clone it. They can either copy just that notebook, or clone the entire repository. As we mentioned in the example notebook on connecting SageMaker Studio Lab to your AWS account, just make sure **you are not under any circumstances sharing your AWS access and secrete keys on GitHub.**  That's effectively the same as letting anyone in the world access your compute resources, while you are still footing the bill. Strongly strongly not recommended.
 
 ### But what about permissions? Can they access my notebook on Studio Lab?
-No way. All they are doing is pointing to your notebook stored on GitHub. So if you are publishing something to GitHub, then as long as they can access that GitHub repository, they can access your code. But at no time will they have any access to your environment or other files sitting on Studio Lab, that is fully private to you and you alone.
+No way. All they are doing is pointing to your notebook stored on GitHub. So if you are publishing something to GitHub, then as long as they can access that GitHub repository, they can access your code. But at no time will they have any access to your environment or other of your files sitting on Studio Lab, that is fully private to you and you alone.
 
 ### How do I create an account on SageMaker Studio Lab?
 Easy, just go to https://studiolab.sagemaker.aws and request an account.
