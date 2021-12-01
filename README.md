@@ -1,6 +1,6 @@
 ## SageMaker Studio Lab Sample Notebooks
 
-[![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/main/README.md)
+[![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/README.md)
 
 ***Available today in public preview.***
 
