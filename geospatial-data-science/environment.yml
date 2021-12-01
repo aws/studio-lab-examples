@@ -1,0 +1,17 @@
+name: geo-data
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - sentinelhub==3.4.1
+  - conda
+  - conda:
+    - ipykernel 
+    - pandas==1.2.4
+    - numpy==1.20.1
+    - matplotlib==3.3.4
+    - geopandas==0.10.2
+    - shapely==1.8.0
+    - plotly_express==0.4.1
+    - rasterio==1.2.10
+    - earthpy==0.9.4
