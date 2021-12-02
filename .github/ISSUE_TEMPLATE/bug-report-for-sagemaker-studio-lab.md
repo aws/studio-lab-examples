@@ -2,7 +2,7 @@
 name: Bug report for SageMaker Studio Lab
 about: Create a report to help us improve SageMaker Studio Lab
 title: ''
-labels: ''
+labels: bug
 assignees: ''
 
 ---
