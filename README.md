@@ -1,6 +1,6 @@
 ## SageMaker Studio Lab Sample Notebooks
 
-[![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/natural-language-processing/NLP_Disaster_Recovery_Translation.ipynb)
+[![Open in SageMaker Studio Lab](https://img.shields.io/badge/open-studio%20lab-blueviolet)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/natural-language-processing/NLP_Disaster_Recovery_Translation.ipynb)
 
 ***Available today in public preview.***
 
@@ -13,7 +13,7 @@ Once you've gotten started, you can sign up to participate in our hackathon with
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
-## License
+## License 
 
 This project is licensed under the Apache-2.0 License.
 
