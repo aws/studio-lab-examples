@@ -2,8 +2,7 @@
 Do you want to add that flashy [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/natural-language-processing/NLP_Disaster_Recovery_Translation.ipynb) button to your notebooks hosted on GitHub? It's really easy. Let me break it down for you in 3 steps.
 
 ### 1. Find the url for your file hosted on GitHub.
-Just copy the url of the file you want to add the button to. This should work nicely for both ipython notebooks (ending in `.ipynb`) and markdown (ending in `.md`). For this file you are reading right now, the url is simply 
-https://github.com/aws/studio-lab-examples/blob/main/open-in-studio-lab/README.md.
+Just copy the url of the file you want to add the button to. This should work nicely for ipython notebooks (ending in `.ipynb`), but is currently not supported for markdown (ending in `.md`). For the button you see displayed above, the raw url is simply https://github.com/aws/studio-lab-examples/blob/main/natural-language-processing/NLP_Disaster_Recovery_Translation.ipynb.
 
 ### 2. Copy and paste the base syntax into your file as Markdown.
 Next, get your hands on this base syntax. Here I'll render it as a code snippet for you.
@@ -12,7 +11,7 @@ Next, get your hands on this base syntax. Here I'll render it as a code snippet 
 You can park that directly in your file. I like putting it right at the top, under the first header.
 
 ### 3. Modify that base url.
-Your last step us just to make sure the link you're adding in your markdown or notebook file accurately reflects your actual GitHub directory structure. What's happening is that we are handling the hand off. You use this new url structure, which starts with  `https://studiolab.sagemaker.aws/import/github/`, and then close it off with your actual GitHub directory structure. 
+Your last step us just to make sure the link you're adding in your markdown or notebook file accurately reflects your actual GitHub directory structure. What's happening is that we are handling the hand off. You use this new url structure, which starts with  `https://studiolab.sagemaker.aws/import/github/`, and then close it off with your actual GitHub directory structure. Here is my modified url, rendered as a code snippet. ``` [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/natural-language-processing/NLP_Disaster_Recovery_Translation.ipynb)```. 
 
 This means that the "open in Studio Lab" functionality will inherit all of the settings from the GitHub repository you are pointing to with this button. If you are pointing to a private repo, it will ask you to authenticate via GitHub and will only allow a download if you have access to that repository.
 
