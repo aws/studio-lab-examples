@@ -10,6 +10,7 @@ This directory contains the following example Conda environments:
 - **Geospatial::** An environment that contains basic packages for geospatial data analysis.
 - **SciPy:** An environment with foundational packages for data science and scientific computing.
 - **R:** An environment with an R kernel for Jupyter and basic R packages for data science.
+- **Fastai:** An custom environment for `fast.ai` with its dependencies and sample datasets.
 
 All of these environments include a working Jupyter kernel for Python or R, which enables the packages to work in
 a Jupyter notebook.
