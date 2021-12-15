@@ -1,0 +1,17 @@
+# run: conda env create --file autogluon_cpu.yml
+name: autogluon_cpu
+dependencies:
+  - python=3.7
+  - conda
+  - pip
+  - liblapack
+  - mkl
+  - bokeh
+  - nodejs
+  - ipykernel
+  - pip:
+    - ipywidgets
+    - setuptools
+    - wheel
+    - mxnet<2.0.0
+    - autogluon
