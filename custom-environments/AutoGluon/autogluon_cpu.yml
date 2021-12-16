@@ -1,17 +1,16 @@
 # run: conda env create --file autogluon_cpu.yml
+# note: This command creates an environment that is larger than 4GB.
 name: autogluon_cpu
 dependencies:
   - python=3.7
   - conda
   - pip
-  - liblapack
-  - mkl
-  - bokeh
-  - nodejs
   - ipykernel
+  - nodejs
   - pip:
     - ipywidgets
     - setuptools
     - wheel
     - mxnet<2.0.0
     - autogluon
+    - jupyter_bokeh
