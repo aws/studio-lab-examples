@@ -1,10 +1,5 @@
-#+TITLE: Using the Julia programming language with Amazon SageMaker Studio Lab
+# Using the Julia programming language with Amazon SageMaker Studio Lab
 
-[[https://julialang.org/][Julia is a programming language for technical computing]], designed to
-be both high-level like Python or R, while also having high
-performance similar to Fortran or C.
+[[https://julialang.org/][Julia is a programming language for technical computing]], designed to be both high-level like Python or R, while also having high performance similar to Fortran or C.
 
-This directory contains Jupyter notebook examples for installing and
-working with Julia in SageMaker Studio Lab. Jupyter (the name is a
-mashup of Julia, Python, and R) is a natural place to explore data
-analysis and machine learning with Julia.
+This directory contains Jupyter notebook examples for installing and working with Julia in SageMaker Studio Lab. Jupyter (the name is a mashup of Julia, Python, and R) is a natural place to explore data analysis and machine learning with Julia.
