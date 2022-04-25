@@ -6,8 +6,8 @@
 
 If you are looking for a no-cost compute environment to run Jupyter notebooks, then look no further than SageMaker Studio Lab! This repository contains example notebooks that demonstrate both core concepts of machine learning and some advanced functionality of SageMaker Studio Lab. 
 
-Once you've gotten started, you can sign up to participate in our hackathon with DevPost on Disaster Response! The winning team takes home $15,000 USD and $5,000 in AWS credits.
-- https://awsdisasterresponse.devpost.com/
+You can find additional SageMaker Studio Lab sample projects in the AWS Disaster Response hackathon project gallery:
+https://awsdisasterresponse.devpost.com/project-gallery
 
 ## Security
 
