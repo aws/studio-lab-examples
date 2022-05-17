@@ -13,3 +13,6 @@ source $HOME/.conda/envs/rust/env
 export JUPYTER_PATH=$HOME/.conda/envs/rust/share/jupyter/
 cargo install evcxr_jupyter
 evcxr_jupyter --install
+
+#install additional packages
+cargo install sccache
