@@ -1,0 +1,10 @@
+name: TensorBoard
+channels:
+- conda-forge
+- pytorch
+dependencies:
+- pytorch
+- torchvision
+- torchaudio
+- cudatoolkit=11.3
+- tensorboard
