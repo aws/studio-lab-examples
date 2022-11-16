@@ -64,23 +64,19 @@ You can create the environment by copying the `.yml` file and right click copied
 
 #### Programming language environment
 
-| No | Environment |
-|----|-------------|
-|   1| [R](custom-environments/R/R.yml)   |
-|   2| [Julia](custom-environments/julia/1-install-julia.ipynb)   |
+* [R](custom-environments/R/R.yml)
+* [Julia](custom-environments/julia/1-install-julia.ipynb)
 
 #### Speficic framework environment
 
-| No | Environment |
-|----|-------------|
-|   1| [AutoGluon (CPU)](custom-environments/AutoGluon/autogluon_cpu.yml)  |
-|   2| [fast.ai](custom-environments/fastai/fastai.yml)   |
-|   3| [Geospatial environment](custom-environments/Geospatial/geospatial.yml)   |
-|   4| [SciPy](custom-environments/SciPy/scipy.yml)   |
+* [AutoGluon (CPU)](custom-environments/AutoGluon/autogluon_cpu.yml)
+* [fast.ai](custom-environments/fastai/fastai.yml)
+* [Geospatial environment](custom-environments/Geospatial/geospatial.yml)
+* [SciPy](custom-environments/SciPy/scipy.yml)
 
 ### Community contents
 
-Let us introduce the fantastic examples from the community!
+Here are some more examples from the community.
 
 [Studio Lab Examples in GitHub](https://github.com/topics/amazon-sagemaker-lab).
 
@@ -101,3 +97,5 @@ Please read our [contributing guidelines](CONTRIBUTING.md) if you'd like to open
 * [SageMaker Studio Lab](https://studiolab.sagemaker.aws/)
 * [SageMaker Studio Lab document](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-lab.html)
 * [Stack Overflow](https://stackoverflow.com/questions/tagged/amazon-sagemaker)
+* Regional examples
+   * :jp: [SageMaker Studio Lab Community Japan](https://github.com/aws-sagemaker-jp/awesome-studio-lab-jp)
