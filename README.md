@@ -73,6 +73,7 @@ You can create the environment by copying the `.yml` file and right click copied
 * [fast.ai](custom-environments/fastai/fastai.yml)
 * [Geospatial environment](custom-environments/Geospatial/geospatial.yml)
 * [SciPy](custom-environments/SciPy/scipy.yml)
+* [Diffusers](custom-environments/diffusers/diffusers.yml)
 
 ### Community contents
 
