@@ -58,9 +58,18 @@ There are 2 ways to use examples.
 
 ### [Custom Environments](custom-environments/)
 
-Thanks to the expandability of Jupyter Notebook, you can run not only Python but also another language Kernel such as R, Julia. Here is the example `environment.yml` files to set up the specific framework / language.
+We provide `.yml` files to set up various programming language / framework environments. To use the `.yml` file, please proceed with the following instruction.
 
-You can create the environment by copying the `.yml` file and right click copied `.yml` file in Studio Lab and select "Build Conda Environment".
+1. Click this button right here --> [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/custom-environments/custom_environment.ipynb)
+2. Click the `Copy to Project` button
+   * Sign-in and `Start runtime` is needed before it.
+3. When prompted, select `Clone Entire Repo`
+4. Click `Clone` after confirming `Open README files.` is checked.
+   * When `No Conda environment file found` shown, please `Dismiss`.
+5. Once opening `README.md` preview, please move to `Custom Environments` section and click the programming language / specific framework environment link as you need to open `.yml` file.
+6. Right click the opened `.yml` file tab and select `Show in File Browser`.
+7. Right click the `.yml` file in the file browser and select `Build Conda Environment`.
+8. Once command completed, please run notebook in the same folder to check the environment. When prompted `Select Kearnel`, please select the created environment.
 
 #### Programming language environment
 
