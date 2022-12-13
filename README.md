@@ -73,16 +73,26 @@ We provide `.yml` files to set up various programming language / framework envir
 
 #### Programming language environment
 
-* [R](custom-environments/R/R.yml)
-* [Julia](custom-environments/julia/1-install-julia.ipynb)
+* [R environment](custom-environments/R/R.yml)
+* [Julia environment](custom-environments/julia/1-install-julia.ipynb)
 
 #### Speficic framework environment
 
-* [AutoGluon (CPU)](custom-environments/AutoGluon/autogluon_cpu.yml)
-* [fast.ai](custom-environments/fastai/fastai.yml)
+* [AutoGluon (CPU) environment](custom-environments/AutoGluon/autogluon_cpu.yml)
+   * [AutoGluon](https://auto.gluon.ai/stable/index.html) is AutoML library for quick prototype by state-of-the-art method without expert knowledge. 
+* [fast.ai environment](custom-environments/fastai/fastai.yml)
+   * [fast.ai](https://www.fast.ai/) is deep learning library which provides state-of-the-art results with high-level API for practitioners and low-level API for expert.
+* [SciPy environment](custom-environments/SciPy/scipy.yml)
+   * [SciPy](https://scipy.org/) is an open-source software for mathematics, science, and engineering.
+* [Diffusers environment](custom-environments/diffusers/diffusers.yml)
+   * [diffusers](https://github.com/huggingface/diffusers) provides pretrained diffusion models across multiple modalities, such as vision and audio, and serves as a modular toolbox for inference and training of diffusion models.
+* [RAPIDS environment](https://studiolab.sagemaker.aws/import/github/rapidsai-community/rapids-smsl/blob/main/rapids-smsl.ipynb) (external link)
+   * [RAPIDS](https://rapids.ai/index.html) provides GPU accelerated data science libraries.
 * [Geospatial environment](custom-environments/Geospatial/geospatial.yml)
-* [SciPy](custom-environments/SciPy/scipy.yml)
-* [Diffusers](custom-environments/diffusers/diffusers.yml)
+   * Geospatial environment is built from basic libraries for geospatial analysis such as [geopandas](https://geopandas.org/en/stable/), [shapely](https://github.com/shapely/shapely), and [folium](https://python-visualization.github.io/folium/quickstart.html#Getting-Started), etc.
+* [Medical image AI environment](https://github.com/aws/studio-lab-examples/blob/main/custom-environments/medical-image-ai/environment.yml)
+   * Medial image AI environment is built from basic libraries for medical image analysis such as [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets), [monai](https://monai.io/). 
+
 
 ### Community contents
 
