@@ -20,11 +20,11 @@ Please follow the [Onboard to Amazon SageMaker Studio Lab](https://docs.aws.amaz
 2. Create a Studio Lab account
 3. Sign in to Studio Lab
 
+If you would like to localize the user interface, please follow [the instruction for user interface localization](custom-environments/localization).
+
 ## :computer: Usage
 
-There are 2 ways to use examples.
-
-1. **Read**: You can read the notebook in Studio Lab without Studio Lab account. Please feel free to push **Open in Studio Lab** button in Examples section.
+1. **Read**: You can read the notebook in Studio Lab without Studio Lab account. Please feel free to click **Open in Studio Lab** button in Examples section.
 2. **Run**: You can run the notebook by copying the notebook or `git clone` the repository to your Studio Lab project.
 3. **Share**: You can share the notebooks through the Git repository such as GitHub. [If you add Open in Studio Lab button](open-in-studio-lab), the readers can copy the notebook or clone the repository by clicking button.
 
