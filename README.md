@@ -76,7 +76,7 @@ We provide `.yml` files to set up various programming language / framework envir
 * [R environment](custom-environments/R/R.yml)
 * [Julia environment](custom-environments/julia/1-install-julia.ipynb)
 
-#### Speficic framework environment
+#### Specific framework environment
 
 * [AutoGluon (CPU) environment](custom-environments/AutoGluon/autogluon_cpu.yml)
    * [AutoGluon](https://auto.gluon.ai/stable/index.html) is AutoML library for quick prototype by state-of-the-art method without expert knowledge. 
