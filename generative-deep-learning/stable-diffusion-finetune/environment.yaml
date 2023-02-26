@@ -3,9 +3,12 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - sagemaker-python-sdk>=2.109
   - boto3
-  - ipywidgets
+  - ipywidgets==7.0.0
   - numpy
+  - pandas
   - matplotlib
   - Pillow
+  - pip
+  - pip:
+      - sagemaker
