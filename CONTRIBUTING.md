@@ -11,7 +11,7 @@ information to effectively respond to your bug report or contribution.
 
 We welcome you to use the GitHub issue tracker to report bugs or suggest features.
 
-When filing an issue, please check existing open, or recently closed, issues to make sure somebody else hasn't already
+When filing an issue, please check [existing open](https://github.com/aws/studio-lab-examples/issues), or [recently closed](https://github.com/aws/studio-lab-examples/issues?q=is%3Aissue+is%3Aclosed), issues to make sure somebody else hasn't already
 reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
 
 * A reproducible test case or series of steps
@@ -27,17 +27,63 @@ Contributions via pull requests are much appreciated. Before sending us a pull r
 2. You check existing open, and recently merged, pull requests to make sure someone else hasn't addressed the problem already.
 3. You open an issue to discuss any significant work - we would hate for your time to be wasted.
 
-To send us a pull request, please:
+### Pull Down the Code
 
-1. Fork the repository.
-2. Modify the source; please focus on the specific change you are contributing. If you also reformat all the code, it will be hard for us to focus on your change.
-3. Ensure local tests pass.
-4. Commit to your fork using clear commit messages.
-5. Send us a pull request, answering any default questions in the pull request interface.
-6. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
+1. If you do not already have one, create a GitHub account by following the prompts at [Join Github](https://github.com/join).
+1. Create a fork of this repository on GitHub. You should end up with a fork at `https://github.com/<username>/studio-lab-examples`.
+   1. Follow the instructions at [Fork a Repo](https://help.github.com/en/articles/fork-a-repo) to fork a GitHub repository.
+1. Clone your fork of the repository: `git clone https://github.com/<username>/studio-lab-examples` where `<username>` is your github username.
 
-GitHub provides additional document on [forking a repository](https://help.github.com/articles/fork-a-repo/) and
-[creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
+### Create the Example
+
+Here are some general guidelines to follow when writing example notebooks:
+
+* Do not require user input to run the notebook.
+  * 👍 `bucket = session.default_bucket()`
+  * 👎 `bucket = <YOUR_BUCKET_NAME_HERE>`
+* Do not require user secret to run the notebook.
+  * 👍 Please execute `aws configure` and input your secrets by opening the Terminal from the menu.
+  * 👎 `aws_access_key_id =  < paste your access key here, run this cell, then delete the cell >`
+* Lint your code and notebooks. (See the section on [running the linters](#run-the-linters) for guidance.)
+* Use present tense.
+  * 👍 "The estimator fits a model."
+  * 👎 "The estimator will fit a model."
+* When referring to an AWS product, use its full name in the first invocation.
+  (This applies only to prose; use what makes sense when it comes to writing code, etc.)
+  * 👍 "Amazon S3"
+  * 👎 "s3"
+* Provide links to other ReadTheDocs pages, AWS documentation, etc. when helpful.
+  Try to not duplicate documentation when you can reference it instead.
+  * Use meaningful text in a link.
+    * 👍 You can learn more about [hyperparameter tuning with SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-how-it-works.html) in the SageMaker docs.
+    * 👎 Read more about it [here](#).
+
+### Run the Linter
+
+Apply Python code formatting to Jupyter notebook files using [black-nb](https://pypi.org/project/black-nb/).
+
+1. Install black-nb using `pip install black-nb`
+1. Run the following black-nb command on each of your ipynb notebook files and verify that the linter passes: `black-nb -l 100 {path}/{notebook-name}.ipynb`
+1. Some notebook features such as `%` bash commands or `%%` cell magic cause black-nb to fail. As long as you run the above command to format as much as possible, that is sufficient, even if the check fails
+
+### Test Your Notebook End-to-End
+
+Please ensure that your notebook runs end-to-end by `Restart & Run All`.
+
+### Commit Your Change
+
+Use imperative style and keep things concise but informative. See [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) for guidance.
+
+### Send a Pull Request
+
+GitHub provides additional document on [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/).
+
+Please remember to:
+* Send us a pull request, answering any default questions in the pull request interface.
+
+### Merge a Pull Request (Done by maintainer)
+
+We merge your pull request by [squash merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-commits) to put commits together.
 
 
 ## Finding contributions to work on

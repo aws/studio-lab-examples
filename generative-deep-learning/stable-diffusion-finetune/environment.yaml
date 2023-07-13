@@ -1,0 +1,14 @@
+name: sagemaker
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - boto3
+  - ipywidgets==7.0.0
+  - numpy
+  - pandas
+  - matplotlib
+  - Pillow
+  - pip
+  - pip:
+      - sagemaker
