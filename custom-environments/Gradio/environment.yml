@@ -1,0 +1,9 @@
+name: gradio
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - ipython
+  - ipykernel
+  - pip:
+    - gradio
