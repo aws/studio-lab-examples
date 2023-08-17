@@ -99,6 +99,8 @@ We provide `.yml` files to set up various programming language / framework envir
    * Geospatial environment is built from basic libraries for geospatial analysis such as [geopandas](https://geopandas.org/en/stable/), [shapely](https://github.com/shapely/shapely), and [folium](https://python-visualization.github.io/folium/quickstart.html#Getting-Started), etc.
 * [Medical image AI environment](https://github.com/aws/studio-lab-examples/blob/main/custom-environments/medical-image-ai/environment.yml)
    * Medial image AI environment is built from basic libraries for medical image analysis such as [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets), [monai](https://monai.io/). 
+* [Gradio environment](https://github.com/aws/studio-lab-examples/blob/main/custom-environments/Gradio/environment.yml)
+   * [Gradio](https://www.gradio.app/) is an application that is suitable for demonstrating your model through an interactive interface.
 
 
 ### Community contents
