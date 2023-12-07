@@ -55,6 +55,7 @@ If you would like to localize the user interface, please follow [the instruction
 | No | Title | Open in Studio Lab |
 |----|-------|--------------------|
 |   1|Introduction to JumpStart - Text to Image | [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/generative-deep-learning/stable-diffusion-finetune/Amazon_JumpStart_Text_To_Image.ipynb) |
+|   2|Prompting Mistral 7B Instruct | [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/generative-deep-learning/large-language-models/prompting-mistral7B.ipynb) |
 
 ### [Connect To AWS](connect-to-aws/)
 
