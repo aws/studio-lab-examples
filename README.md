@@ -50,11 +50,12 @@ If you would like to localize the user interface, please follow [the instruction
 |   1|Getting Started With Geospatial Data Analysis | [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/geospatial-data-science/CA_data/geospatial_analysis.ipynb) |
 |   2|Exploratory Analysis for NOAA Weather and Climate Dataset | [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/geospatial-data-science/NOAA_Exploratory_Analysis/EDA_weather_climate.ipynb) |
 
-### [Generative Deep Learning](generative-deep-learning/)
+### [Generative Deep Learning](generative-ai/)
 
 | No | Title | Open in Studio Lab |
 |----|-------|--------------------|
-|   1|Introduction to JumpStart - Text to Image | [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/generative-deep-learning/stable-diffusion-finetune/Amazon_JumpStart_Text_To_Image.ipynb) |
+|   1|Introduction to JumpStart - Text to Image | [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/generative-ai/stable-diffusion-finetune/Amazon_JumpStart_Text_To_Image.ipynb) |
+|   2|Prompting Mistral 7B Instruct | [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/generative-ai/mistral/prompting-mistral7B.ipynb) |
 
 ### [Connect To AWS](connect-to-aws/)
 
