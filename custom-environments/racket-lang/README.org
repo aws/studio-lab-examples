@@ -1,0 +1,8 @@
+#+TITLE: Using the Racket programming language with Amazon SageMaker Studio Lab
+
+[[https://racket-lang.org/][Racket]] is a modern general purpose programming language in the lisp
+family of languages with a growing ecosystem of packages across a
+variety of domains including math, statistics, and machine learning.
+
+This directory contains Jupyter notebook examples for installing and
+working with Racket in SageMaker Studio Lab.
