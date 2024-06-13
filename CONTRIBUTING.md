@@ -36,6 +36,12 @@ Contributions via pull requests are much appreciated. Before sending us a pull r
 
 ### Create the Example
 
+Notebooks in Studio Lab Examples are tested on a daily basis. Here are a few rules you need to follow to ensure that your notebook passes the CI test and is not flagged for failing:
+
+* Make sure your environment YML file starts with the prefix "env". Otherwise the CI system will not detect it and use the default Studio Lab environment.
+* Your environment YML should be located either in the same directory as your notebook or in a child directory of your notebook's directory.
+* Make sure to include the "Open in Studio Lab" icon in your notebooks to make sure they are treated as a Studio Lab notebook in testing. This can be done by adding `[![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws/studio-lab-examples/blob/main/NOTEBOOK_PATH)` in a markdown cell underneath your notebook's title. The NOTEBOOK_PATH is location of your notebook in the repo relative to the repo's root directory (i.e. `computer-vision/weather-data/weather-image-classification-pytorch.ipynb`).
+
 Here are some general guidelines to follow when writing example notebooks:
 
 * Do not require user input to run the notebook.
