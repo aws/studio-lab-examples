@@ -4,9 +4,9 @@ We can localize the user interface by using [jupyterlab-language-pack](https://a
 
 1. Open the Terminal and install the language pack. The followings are example.
    * German: `conda install -c conda-forge jupyterlab-language-pack-de-de`
-   * French: `conda install -c jupyterlab-language-pack-fr-fr`
+   * French: `conda install -c conda-forge jupyterlab-language-pack-fr-fr`
    * Japanese: `conda install -c conda-forge jupyterlab-language-pack-ja-jp`
-   * Chinese: `conda install -c jupyterlab-language-pack-zh-cn`
+   * Chinese: `conda install -c conda-forge jupyterlab-language-pack-zh-cn`
 2. Restart the Jupyter Lab
    * ![restart_jupyter_lab.png](restart_jupyter_lab.png)
 3. Setting the Language
