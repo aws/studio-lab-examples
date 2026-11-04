@@ -58,6 +58,24 @@ Here are some general guidelines to follow when writing example notebooks:
     * 👍 You can learn more about [hyperparameter tuning with SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-how-it-works.html) in the SageMaker docs.
     * 👎 Read more about it [here](#).
 
+### Document the Environment
+
+Every example notebook must explain how to install its dependencies before running the example.
+State the Python version and notebook kernel you use, and whether the example requires a CPU or GPU runtime.
+Choose the setup approach that fits the example:
+
+* **Conda environment file:** Include a YAML file, such as `environment.yml`, alongside the notebook.
+  Document how to create the environment with `conda env create -f environment.yml` (using the actual filename),
+  activate it, and select its notebook kernel. See the [KMNIST example](computer-vision/kmnist/cv-kminst.ipynb).
+* **Install from the notebook:** Put `%pip install` cells before imports that depend on the installed packages.
+  Explain which kernel to select, whether a kernel restart is necessary, and how to restore or recreate
+  a clean environment if installation changes existing packages. See the
+  [weather classification example](computer-vision/weather-data/weather-image-classification-pytorch.ipynb)
+  for notebook installation cells.
+
+Providing both setup approaches is optional. Test the documented setup in a clean environment and then
+run the notebook end-to-end as described below.
+
 ### Run the Linter
 
 Apply Python code formatting to Jupyter notebook files using [black-nb](https://pypi.org/project/black-nb/).
